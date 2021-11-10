@@ -3,8 +3,8 @@
 export ARCH=arm64
 mkdir out
 
-BUILD_CROSS_COMPILE=$(pwd)/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
-KERNEL_LLVM_BIN=$(pwd)/toolchain/llvm-arm-toolchain-ship/10.0/bin/clang
+BUILD_CROSS_COMPILE=~/android/toolchains/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+KERNEL_LLVM_BIN=~/android/toolchains/clang+llvm-10.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/clang
 CLANG_TRIPLE=aarch64-linux-gnu-
 KERNEL_MAKE_ENV=""
 
